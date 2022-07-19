@@ -56,7 +56,7 @@ const Login = () => {
                 ) : (
                     <>
                         <h1 className="mb-4 text-3xl md:text-4xl font-semibold text-black">
-                            Quiz App
+                            Quizzizz
                         </h1>
                         <Formik
                             initialValues={{
