@@ -7,8 +7,8 @@ const App = () => {
         <React.StrictMode>
             <BrowserRouter>
                 <Routes>
-                    <Route exact path="/login" element={<Login />} />
-                    <Route path="/" element={<Quiz />} />
+                    <Route exact path="/" element={<Login />} />
+                    <Route path="/quiz" element={<Quiz />} />
                 </Routes>
             </BrowserRouter>
         </React.StrictMode>

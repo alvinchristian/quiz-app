@@ -49,7 +49,7 @@ const Quiz = () => {
 
     const handleLeave = () => {
         localStorage.clear();
-        navigate("/login", { replace: true });
+        navigate("/", { replace: true });
     };
 
     const answerChecker = () => {
@@ -139,7 +139,6 @@ const Quiz = () => {
                                             }}
                                             className="w-full px-4 focus:bg-c1 text-black focus:text-white focus:animate-pulse py-1 rounded-lg"
                                         />
-
                                         // </label>
                                     )
                                 )}

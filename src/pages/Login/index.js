@@ -32,7 +32,7 @@ const Login = () => {
                     ].sort(() => Math.random() - 0.5),
                 }));
                 localStorage.setItem("questions", JSON.stringify(data));
-                navigate("/", { replace: true });
+                navigate("/quiz", { replace: true });
             })
             .catch(function (err) {
                 console.log(err);
