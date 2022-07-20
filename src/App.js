@@ -4,14 +4,12 @@ import { Login, Quiz } from "./pages";
 
 const App = () => {
     return (
-        <React.StrictMode>
-            <BrowserRouter>
-                <Routes>
-                    <Route exact path="/" element={<Login />} />
-                    <Route path="/quiz" element={<Quiz />} />
-                </Routes>
-            </BrowserRouter>
-        </React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Login />} />
+                <Route path="/quiz" element={<Quiz />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 
